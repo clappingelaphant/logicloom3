@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: logicloom
+    env: docker
+    plan: free
