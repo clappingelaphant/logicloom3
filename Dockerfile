@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/clappingelaphant/MindBridgetutoring.git
+RUN git clone https://github.com/clappingelaphant/logicloom.git
 
-WORKDIR /MindBridgetutoring
+WORKDIR /logicloom
 
 RUN npm install
 
